@@ -1,172 +1,952 @@
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Language" content="en">
-
-    <meta name="author" content="Jean Macena">
-    <meta name="description" content="Jean Macena&#39;s personal website">
-    <meta name="keywords" content="blog,developer,personal">
-
-    
-
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Jean Macena"/>
-<meta name="twitter:description" content="Jean Macena&#39;s personal website"/>
-
-    <meta property="og:title" content="Jean Macena" />
-<meta property="og:description" content="Jean Macena&#39;s personal website" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://jeanmacena.github.io/" />
-
-
-
-    
-      <base href="https://jeanmacena.github.io/">
-    
+	<meta name="generator" content="Hugo 0.74.3" />
     <title>Jean Macena</title>
+    <meta name="description" content="Portfolio and personal blog of Jean Macena." />
+    <meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+
+<link rel="stylesheet" href="/assets/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/assets/css/main.css" />
+<link rel="stylesheet" href="/assets/css/style.css" />
+<link rel="stylesheet" href="/assets/css/navigators/navbar.css" />
+
+
+<link href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+
+<link rel="icon" type="image/png" href="/assets/images/favicon.png" />
+
+
+<link rel="stylesheet" href="/assets/css/style.css" />
+
+    <link rel="stylesheet" href="/assets/css/sections/home.css" />
+    <link rel="stylesheet" href="/assets/css/sections/about.css" />
+    <link rel="stylesheet" href="/assets/css/sections/skills.css" />
+    <link rel="stylesheet" href="/assets/css/sections/experiences.css" />
+    <link rel="stylesheet" href="/assets/css/sections/projects.css" />
+    <link rel="stylesheet" href="/assets/css/sections/recent-posts.css" />
+    <link rel="stylesheet" href="/assets/css/sections/achievements.css" />
 
     
-      <link rel="canonical" href="https://jeanmacena.github.io/">
     
-
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
-
-    
-      
-      
-      <link rel="stylesheet" href="https://jeanmacena.github.io/css/coder.min.3219ef62ae52679b7a9c19043171c3cd9f523628c2a65f3ef247ee18836bc90b.css" integrity="sha256-MhnvYq5SZ5t6nBkEMXHDzZ9SNijCpl8&#43;8kfuGINryQs=" crossorigin="anonymous" media="screen" />
-    
-
-    
-
-    
-
-    
-      <link rel="stylesheet" href="https://jeanmacena.github.io/css/custom.css" />
-    
-
-    
-
-    <link rel="icon" type="image/png" href="https://jeanmacena.github.io/img/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://jeanmacena.github.io/img/favicon-16x16.png" sizes="16x16">
-
-    <link rel="alternate" type="application/rss+xml" href="https://jeanmacena.github.io/index.xml" title="Jean Macena" />
-    <meta name="generator" content="Hugo 0.74.3" />
   </head>
+  <body data-spy="scroll" data-target="#top-navbar" data-offset="100">
 
-  
-  
-  <body class="colorscheme-light"
-        onload=""
-  >
-    <main class="wrapper">
-      <nav class="navigation">
-  <section class="container">
-    <a class="navigation-title" href="https://jeanmacena.github.io/">
-      Jean Macena
-    </a>
+    <nav class="navbar navbar-expand-xl top-navbar initial-navbar" id="top-navbar">
+  <div class="container">
     
-    <input type="checkbox" id="menu-toggle" />
-    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
-    <ul class="navigation-list">
-      
-        
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://jeanmacena.github.io/posts/">Blog</a>
-          </li>
-        
-          <li class="navigation-item">
-            <a class="navigation-link" href="https://jeanmacena.github.io/about/">About</a>
-          </li>
-        
-      
-      
-    </ul>
     
-  </section>
+    
+      
+    
+    
+      
+    
+    <a class="navbar-brand" href="https://jeanmacena.github.io/">
+      <img src="/assets/images/inverted-logo.png" id="logo">Jean Macena</a>
+    <button
+      class="navbar-toggler navbar-dark"
+      id="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#top-nav-items"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="top-nav-items">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+            
+            
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+            
+            
+              <li class="nav-item">
+                <a class="nav-link" href="#experiences">Experiences</a>
+              </li>
+            
+            
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+            
+            
+            
+        
+        
+        
+        
+        
+      </ul>
+    </div>
+  </div>
+  
+  <img src="/assets/images/main-logo.png" class="d-none" id="main-logo">
+  <img src="/assets/images/inverted-logo.png" class="d-none" id="inverted-logo">
 </nav>
-
-
-      <div class="content">
-        
-  <section class="container centered">
-  <div class="about">
-    
+<div class="container-fluid home" id="home">
+  <div
+    class="background container-fluid"
+    style="background-image: url('images/background.png');"
+  ></div>
+  <div class="container content text-center">
+    <img src="images/avatar.jpg"
+      class="rounded-circle mx-auto d-block img-fluid"
+    />
+    <h1 class="greeting">Hi, I am
       
-        <div class="avatar"><img src="https://jeanmacena.github.io/image/avatar.jpg" alt="avatar"></div>
+        Jean
       
-    
-    
-    <h1>Jean Macena</h1>
-    <h2>Full Stack DevOps and Magician</h2>
-    
-    <ul>
+    </h1>
+    <div class="typing-carousel">
+      <span id="ityped" class="ityped"></span>
+      <span class="ityped-cursor"></span>
+    </div>
+    <ul id="typing-carousel-data">
       
-        
-          <li>
-            <a href="https://github.com/johndoe/" aria-label="Github"   >
-              <i class="fab fa-github fa-2x" aria-hidden="true"></i>
-            </a>
-          </li>
-        
+      <li>I am a Developer</li>
       
-        
-          <li>
-            <a href="https://gitlab.com/johndoe/" aria-label="Gitlab"   >
-              <i class="fab fa-gitlab fa-2x" aria-hidden="true"></i>
-            </a>
-          </li>
-        
+      <li>I can learn any tech stack</li>
       
-        
-          <li>
-            <a href="https://twitter.com/johndoe/" aria-label="Twitter"   >
-              <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
-            </a>
-          </li>
-        
+      <li>I am an Automation Specialist</li>
+      
+      <li>I love to work with some challenger projects</li>
+      
+      <li>I have accent :)</li>
       
     </ul>
+    
+      
+        <a href="#about"><i class="arrow bounce fa fa-chevron-down"></i></a>
+      
     
   </div>
-</section>
+</div>
 
+    
+      
+      
+        
+          <div class="container-fluid section-holder d-flex bg-white">
+            <div class="container anchor p-lg-5 about-section" id="about">
+  <div class="row pt-sm-2 pt-md-4 align-self-center">
+    
+    <div class="col-sm-6">
+    <h3 class="p-1">Jean Macena</h3>
+      
+      <h5 class="p-1">
+        Consultant Developer
+        
+          at <a href="https://www.thoughtworks.com/">Thoughtworks</a>
+        
+      </h5>
+      
+      <p class="p-1 text-justify">
+        I am a passionate software engineer with years of working experience in Web Development and Automation. Sometimes, I work on some fun and social projects and such as <a href="http://www.u1na.org">www.u1na.org</a>
+      </p>
+      <div class="text-container ml-auto">
+        <ul class="social-link d-flex">
+          
+          <li>
+            
+              <a href="mailto:jeanmacena@gmail.com" target="/"><i class="fas fa-envelope"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://github.com/jeanmacena" target="/"><i class="fab fa-github"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://www.linkedin.com/in/jeanmacena/" target="/"><i class="fab fa-linkedin"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://www.instagram.com/macena.jean/" target="/"><i class="fab fa-instagram"></i></a>
+            
+          </li>
+          
+          <li>
+            
+              <a href="https://www.facebook.com/jeanmacena/" target="/"><i class="fab fa-facebook"></i></a>
+            
+          </li>
+          
+        </ul>
+      </div>
+      
+      <a href="files/resume.pdf" target="#"
+        ><button class="btn btn-dark">My Resume</button></a
+      >
+      
+    </div>
+    
+    <div class="col-sm-6 pt-5 pl-md-4 pl-sm-3 pt-sm-0">
+      <div class="row">
+        
+          <div class="col-6 col-lg-4 p-2">
+  
+  
+  <div class="circular-progress blue">
+    <span class="circular-progress-left">
+      <span
+        class="circular-progress-bar circular-progress-percentage-80"
+        
+      ></span>
+    </span>
+    <span class="circular-progress-right">
+      <span
+      class="circular-progress-bar"
+      
+      ></span>
+    </span>
+    <div class="circular-progress-value">Leadership</div>
+  </div>
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+  
+  
+  <div class="circular-progress yellow">
+    <span class="circular-progress-left">
+      <span
+        class="circular-progress-bar circular-progress-percentage-100"
+        
+      ></span>
+    </span>
+    <span class="circular-progress-right">
+      <span
+      class="circular-progress-bar"
+      
+      ></span>
+    </span>
+    <div class="circular-progress-value">Team Work</div>
+  </div>
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+  
+  
+  <div class="circular-progress pink">
+    <span class="circular-progress-left">
+      <span
+        class="circular-progress-bar circular-progress-percentage-85"
+        
+      ></span>
+    </span>
+    <span class="circular-progress-right">
+      <span
+      class="circular-progress-bar"
+      
+      ></span>
+    </span>
+    <div class="circular-progress-value">Communication</div>
+  </div>
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+  
+  
+  <div class="circular-progress green">
+    <span class="circular-progress-left">
+      <span
+        class="circular-progress-bar circular-progress-percentage-100"
+        
+      ></span>
+    </span>
+    <span class="circular-progress-right">
+      <span
+      class="circular-progress-bar"
+      
+      ></span>
+    </span>
+    <div class="circular-progress-value">Hard Working</div>
+  </div>
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+  
+  
+  <div class="circular-progress sky">
+    <span class="circular-progress-left">
+      <span
+        class="circular-progress-bar circular-progress-percentage-85"
+        
+      ></span>
+    </span>
+    <span class="circular-progress-right">
+      <span
+      class="circular-progress-bar"
+      
+      ></span>
+    </span>
+    <div class="circular-progress-value">Fast Learner</div>
+  </div>
+</div>
+
+        
+          <div class="col-6 col-lg-4 p-2">
+  
+  
+  <div class="circular-progress orange">
+    <span class="circular-progress-left">
+      <span
+        class="circular-progress-bar circular-progress-percentage-80"
+        
+      ></span>
+    </span>
+    <span class="circular-progress-right">
+      <span
+      class="circular-progress-bar"
+      
+      ></span>
+    </span>
+    <div class="circular-progress-value">Problem Solving</div>
+  </div>
+</div>
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-dimmed">
+            <div class="container-fluid anchor pb-5 skills-section" id="skills">
+  
+    <h1 class="text-center">Skills</h1>
+  
+  <div class="container d-flex-block">
+    <div class="row" id="primary-skills">
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://kubernetes.io/">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+        <img class="card-img-xs" src="images/skills/kubernetes.png" alt="Kubernetes" />
+        
+        <h5 class="card-title">Kubernetes</h5>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://golang.org/">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+        <img class="card-img-xs" src="images/skills/go.png" alt="Go Development" />
+        
+        <h5 class="card-title">Go Development</h5>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="#">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+        <img class="card-img-xs" src="images/skills/cloud.png" alt="Cloud Computing" />
+        
+        <h5 class="card-title">Cloud Computing</h5>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Worked with most of the major clouds such as GCP, AWS, Azure etc.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://www.docker.com/">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+        <img class="card-img-xs" src="images/skills/docker.svg" alt="Docker" />
+        
+        <h5 class="card-title">Docker</h5>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://prometheus.io/">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+        <img class="card-img-xs" src="images/skills/prometheus.png" alt="Prometheus" />
+        
+        <h5 class="card-title">Prometheus</h5>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="#">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+        <img class="card-img-xs" src="images/skills/linux.png" alt="Linux" />
+        
+        <h5 class="card-title">Linux</h5>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Using as the main operating system. Capable of writing bash/shell scripts.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="https://git-scm.com/">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+        <img class="card-img-xs" src="images/skills/git.png" alt="Git" />
+        
+        <h5 class="card-title">Git</h5>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+        <div class="col-xs-12 col-sm-6 col-lg-4 pt-2">
+  <a class="skill-card-link" href="#">
+    <div class="card">
+      <div class="card-head d-flex">
+        
+        <img class="card-img-xs" src="images/skills/c&#43;&#43;.png" alt="C&#43;&#43;" />
+        
+        <h5 class="card-title">C&#43;&#43;</h5>
+      </div>
+      <div class="card-body">
+        <p class="card-text">Know basic C/C++ programming. Used for contest programming and problem solving.</p>
+      </div>
+    </div>
+  </a>
+</div>
+
+      
+    </div>
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-white">
+            <div class="container-fluid anchor pb-5 experiences-section" id="experiences">
+  
+    <h1 class="text-center">Experiences</h1>
+  
+
+  <div class="container timeline text-justify">
+   
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">1</div>
+</div>
+
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Consultant Developer</h5>
+        <h6><a href=https://thoughtworks.com/>ThoughtWorks</a></h6>
+        
+        <p class="text-muted">Mar 2020 - Present,
+            Recife - Brazil
+        </p>
+    </div>
+    
+    <p>Batch 70 participant at ThoughtWorks University.</p>
+    
+    <h6 class="text-muted">Responsibilities:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Full Stack developer</li>
+    
+        <li>Facilitation of agile ceremonies</li>
+    
+        <li>Client face</li>
+    
+    </ul>
+</div>
+
+
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center justify-content-end d-flex">
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Software Engineer</h5>
+        <h6><a href=https://www.u1na.org/>UNA Project</a></h6>
+        
+        <p class="text-muted">Jul 2017 - Sep 2018,
+            Recife - Brazil
+        </p>
+    </div>
+    
+    <p>Full Stack developer helping to create a platform start from scratch</p>
+    
+    <h6 class="text-muted">Responsibilities:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Developing functionalities</li>
+    
+        <li>Database management</li>
+    
+        <li>Deploy in production</li>
+    
+    </ul>
+</div>
+
+
+
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">2</div>
+</div>
+
+       </div>
+     
+     
+       <div class="row horizontal-line">
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+  <div class="col-10 col-lg-8">
+    <hr />
+  </div>
+  <div class="col-1 col-lg-2 timeline-side-div">
+    <div class="corner"></div>
+  </div>
+</div>
+
+     
+   
+     
+       <div class="row align-items-center  d-flex">
+         <div class="col-1 col-lg-2 text-center vertical-line d-inline-flex justify-content-center">
+  <div class="circle font-weight-bold">3</div>
+</div>
+
+         
+  <div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        
+        
+        <h5>Software Automation Engineer</h5>
+        <h6><a href=https://www.accenture.com>Accenture.</a></h6>
+        
+        <p class="text-muted">Apr 2017 - Mar 2020,
+            Accenture
+        </p>
+    </div>
+    
+    <p>Developer and Automation Specialist with Python, Java, Selenium and UFT</p>
+    
+    <h6 class="text-muted">Responsibilities:</h6>
+    <ul class="justify-content-around">
+    
+        <li>Client Face</li>
+    
+        <li>Team Facilitator</li>
+    
+        <li>Quality Engineer</li>
+    
+        <li>Automation Instructor</li>
+    
+        <li>Creation of Proof of Concept in differents tools</li>
+    
+        <li>Creation of tools for improve the team productivity</li>
+    
+    </ul>
+</div>
+
+
+
+       </div>
+     
+     
+   
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+          <div class="container-fluid section-holder d-flex bg-dimmed">
+            <div class="container-fluid anchor pb-5 projects-section" id="projects">
+  
+    <h1 class="text-center">Projects</h1>
+  
+  <div class="container ml-auto text-center">
+    <div class="btn-group flex-wrap" role="group" id="project-filter-buttons">
+      
+      <button type="button" class="btn btn-dark" data-filter="all">
+        All
+      </button>
+      
+      <button type="button" class="btn btn-dark" data-filter="professional">
+        Professional
+      </button>
+      
+      <button type="button" class="btn btn-dark" data-filter="hobby">
+        Hobby
+      </button>
+      
+    </div>
+  </div>
+  <div class="container filtr-projects">
+    <div class="row" id="project-card-holder">
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, hobby,ios,mobile'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://github.com/jeanmacena/studiesois">
+        <div>
+          <div class="d-flex">
+            
+            <img class="card-img-xs" src="images/projects/pokedex.png" alt="iOS - Pokédex" />
+            
+            <h5 class="card-title mb-0">iOS - Pokédex</h5>
+          </div>
+          <div class="sub-title">
+            <span>Owner</span>
+            <span>Jul 2018 - Present</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>Just a repository for a few codes about my learning in IOS dev.</p>
+        <span class="float-right">
+          
+          <a
+            class="github-button-inactive"
+            href="https://github.com/jeanmacena/studiesois"
+            data-icon="octicon-standard"
+            data-show-count="true"
+            aria-label="Star iOS - Pokédex"
+            >Star</a
+          >
+          
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, hobby,python,bot'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://github.com/jeanmacena/instagram-bot">
+        <div>
+          <div class="d-flex">
+            
+            <img class="card-img-xs" src="images/projects/bot.png" alt="Instagram Bot" />
+            
+            <h5 class="card-title mb-0">Instagram Bot</h5>
+          </div>
+          <div class="sub-title">
+            <span>Owner</span>
+            <span>Aug 2020</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>A little bot that will check a list of @ and like the last post for everyone on that list. This bot will work locally or after deploy as Heroku app.</p>
+        <span class="float-right">
+          
+          <a
+            class="github-button-inactive"
+            href="https://github.com/jeanmacena/instagram-bot"
+            data-icon="octicon-standard"
+            data-show-count="true"
+            aria-label="Star Instagram Bot"
+            >Star</a
+          >
+          
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, professional,php,web'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://www.u1na.org/">
+        <div>
+          <div class="d-flex">
+            
+            <img class="card-img-xs" src="images/projects/una.png" alt="UNA" />
+            
+            <h5 class="card-title mb-0">UNA</h5>
+          </div>
+          <div class="sub-title">
+            <span>Developer</span>
+            <span>Jul 2017 - Sep 2018</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>Ecosystem of initiatives for gender equity and women&rsquo;s empowerment</p>
+        <span class="float-right">
+          
+          <a
+            class="btn btn-outline-info btn-sm mb-2"
+            href="https://www.u1na.org/"
+            target="#"
+            >Details</a
+          >
+          
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+        <div
+  class="col-sm-12 col-md-6 col-lg-4 p-2 filtr-item"
+  data-category='all, hobby,hugo,website'
+>
+  <div class="card mt-1">
+    <div class="card">
+      <a class="card-header" href="https://github.com/jeanmacena/personalsite">
+        <div>
+          <div class="d-flex">
+            
+            <img class="card-img-xs" src="images/projects/profile.png" alt="Jean Macena&#39;s website" />
+            
+            <h5 class="card-title mb-0">Jean Macena&#39;s website</h5>
+          </div>
+          <div class="sub-title">
+            <span>Owner</span>
+            <span>Aug 2020 - Present</span>
+          </div>
+        </div>
+      </a>
+      <div class="card-body text-justify pt-1 pb-1">
+        <p>Just a repository for my own website using Hugo.</p>
+        <span class="float-right">
+          
+          <a
+            class="github-button-inactive"
+            href="https://github.com/jeanmacena/personalsite"
+            data-icon="octicon-standard"
+            data-show-count="true"
+            aria-label="Star Jean Macena&#39;s website"
+            >Star</a
+          >
+          
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+    </div>
+  </div>
+</div>
+
+          </div>
+          
+          
+            
+          
+        
+      
+        
+      
+        
+      
+    
+
+    <footer class="container-fluid text-center align-content-center footer pb-2">
+  <div class="container pt-5">
+    <div class="row text-left">
+      <div class="col-md-4 col-sm-12">
+        <h5>Navigation</h5>
+        
+        <ul>
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="/#about">About</a>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="/#skills">Skills</a>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="/#experiences">Experiences</a>
+            </li>
+            
+            
+            <li class="nav-item">
+              <a class="smooth-scroll" href="/#projects">Projects</a>
+            </li>
+            
+            
+            
+        </ul>
+        
 
       </div>
+      <div class="col-md-4 col-sm-12">
+        <h5>Contact Me</h5>
+        <ul>
+          
+          <li><span>Email: </span> <span>jeanmacena@gmail.com</span></li>
+          
+          <li><span>Phone: </span> <span>&#43;5581998342865</span></li>
+          
+        </ul>
+      </div>
+      
+    </div>
+  </div>
+  <hr />
+  <div class="container">
+    <div class="row text-left">
+      <div class="col-md-4">
+        <a id="theme" href="https://github.com/hossainemruz/toha" target="#">
+          <img src="/assets/images/inverted-logo.png">
+          Toha
+        </a>
+      </div>
+      <div class="col-md-4 text-center">© 2020 Copyright.</div>
+      <div class="col-md-4 text-right">
+        <a id="hugo" href="https://gohugo.io/">Powered by Hugo
+        <img
+          src="/assets/images/hugo-logo-wide.svg"
+          alt="Hugo Logo"
+          height="18"
+        />
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
 
-      
-  <footer class="footer">
-    <section class="container">
-      
-        <p>Enter a text here.</p>
-      
-      
-        ©
-        
-        2020
-         Jean Macena 
-      
-      
-         · 
-        Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
-      
-      
-    </section>
-  </footer>
+    <script src="/assets/js/jquery-3.4.1.min.js"></script>
+<script src="/assets/js/bootstrap.min.js"></script>
 
-    </main>
+<script src="/assets/js/navbar.js"></script>
+<script src="/assets/js/main.js"></script>
+
 
     
-
-    
-
-    
-
+    <script src="/assets/js/itype.min.js"></script>
+    <script src="/assets/js/github-button.js"></script>
+    <script src="/assets/js/home.js"></script>
+    <script src="/assets/js/jquery.filterizr.min.js"></script>
   </body>
-
 </html>
